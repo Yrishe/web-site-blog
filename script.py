@@ -7,3 +7,7 @@ from flask_wtf import FlaskForm
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "SECrET_pRoJET" 
 
+@app.route('/', ["GET", "POST"])
+def index():
+  pass 
+
