@@ -21,6 +21,10 @@ body.light {
   --text-color: black;
 }
 
+.light section {
+  background-image: url('/Users/yrish/Desktop/web-site-blog/images/clark-tibbs-oqStl2L5oxI-unsplash.jpg');
+}
+
 body.dark-green {
   --bg-color: rgb(2, 48, 2);
   --text-color: rgb(130, 199, 18);
