@@ -19,34 +19,27 @@ html {
 
 img.avatar {
   border-radius: 80%;
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   padding: 6.6px;
   border: grey solid 4px;
+  left: 680px;
 
 }
 
-header {
+/*header {
   margin: 2px;
   padding: 1px 5px;
   height: 180px;
   width: 2000px;
   background-color: var(--primary-color);
   opacity: 0.8;
-}
+}*/
 
-header h1 {
-  position: relative;
-  top: 2px;
-  left: 180px;
-  top: -100px;
-  color: aliceblue;
-}
-
-.light section {
-  position: relative;
-  left: 10px;
-
+.light h1,
+h2 {
+  text-align: center;
+  color: rgb(13, 30, 45);
 }
 
 main {
@@ -61,14 +54,21 @@ body.light {
   --text-color: black;
 }
 
-.light {
-  background-image: url('/Users/yrish/Desktop/blog-test/web-site-blog/images/arnold-francisca-FBNxmwEVpAc-unsplash.jpg');
+body img {
+  height: 450px;
+  width: 700px;
+  position: relative;
+  left: 480px;
+
 }
 
-/*body section h3 {
-  position: relative;
-  top: 3px;
-}*/
+body section {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+}
 
 /*body section ul {
   list-style-type: square;
@@ -120,7 +120,8 @@ h1 {
 p {
   margin-bottom: 8px;
   size: 12px;
-  color: aliceblue;
+  color: black;
+  font-weight: 600px;
 }
 
 ul li a {
