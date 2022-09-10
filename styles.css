@@ -16,14 +16,38 @@ html {
   --primary-color-dark: rgb(139, 56, 0);
 }
 
-body.light {
-  --bg-color: rgba(255, 255, 255, 0.911);
-  --text-color: black;
+img.avatar {
+  border-radius: 80%;
+  width: 150px;
+  height: 150px;
+  padding: 6.6px;
+  border: grey solid 4px;
+
+}
+
+header {
+  margin: 2px;
+  padding: 1px 5px;
+  height: 180px;
+  width: 1000px;
+}
+
+header h1 {
+  position: relative;
+  top: 2px;
+  left: 180px;
+  top: -100px;
 }
 
 .light section {
-  background-image: url('/Users/yrish/Desktop/blog-test/web-site-blog/images/clark-tibbs-oqStl2L5oxI-unsplash.jpg');
+  position: relative;
+  left: 10px;
 
+}
+
+body.light {
+  --bg-color: rgba(255, 255, 255, 0.911);
+  --text-color: black;
 }
 
 body.dark-green {
@@ -49,15 +73,6 @@ body {
 
 img {
   width: 100%;
-
-}
-
-img.avatar {
-  border-radius: 80%;
-  width: 300px;
-  height: 300px;
-  padding: 6.6px;
-  border: grey solid 4px;
 
 }
 
